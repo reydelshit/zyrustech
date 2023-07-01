@@ -11,7 +11,7 @@ define(
 
 // Database Configuration
 define("DATABASE_SERVER", "localhost");
-define("DATABASE_NAME", "papers_store"); // Replace "your_database" with your actual database name
+define("DATABASE_NAME", "zyrustech");
 define("DATABASE_USER_NAME", "root");
 define("DATABASE_PASSWORD", "");
 define("DATABASE_PORT", "3306");
