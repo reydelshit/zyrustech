@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col">
             <h2>Mock Payment Gateway</h2>
-            <p>This is a test payment gateway, you can either complete the payment or cancel the transaction.</p>
+            <p>This is a payment gateway, you can either complete the payment or cancel the transaction.</p>
             <hr>
         </div>
     </div>

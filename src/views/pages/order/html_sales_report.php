@@ -79,7 +79,7 @@ if ($result) {
     echo "<th style='border: 1px solid #000; padding: 8px;'>Payment Method</th>";
     echo "<th style='border: 1px solid #000; padding: 8px;'>Product</th>";
     echo "<th style='border: 1px solid #000; padding: 8px;'>Category</th>";
-    echo "<th style='border: 1px solid #000; padding: 8px;'>Amount</th>";
+    echo "<th style='border: 1px solid #000; padding: 8px; width: 100px;'>Amount</th>";
     echo "</tr>";
     echo "</thead>";
     echo "<tbody>";
@@ -98,7 +98,7 @@ if ($result) {
 
     // Display the total sales row
     echo "<tr>";
-    echo "<td colspan='4' style='text-align: right; border: 1px solid #000; padding: 8px;'><strong>Total Sales:</strong></td>";
+    echo "<td colspan='4' style='text-align: right; border: 1px solid #000; padding: 2px;'><strong>Total Sales:</strong></td>";
     echo "<td style='border: 1px solid #000; padding: 8px;'>₱ " . number_format($sales_total) . "</td>";
     echo "</tr>";
 
